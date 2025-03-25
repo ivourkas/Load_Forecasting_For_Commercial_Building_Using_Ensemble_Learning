@@ -18,29 +18,3 @@ Electricity load forecasting is critical for efficient power system operation, e
 
 **Index Terms**—Load forecasting, Random Forest, LSTM, ensemble learning, stacking, energy management.
 
-## Repository Structure
-
-├── data/ # Weather and consumption datasets
-│ ├── Weather data 2020-02-01 to 2022-10-01.csv
-│ ├── Weather data 2022-10-02 to 2025-01-31.csv
-│ └── Weather_Test_Correct.csv
-├── figures/ # Visualizations and analysis
-│ ├── CCNY CLOSED DAYS.xlsx
-│ ├── Evaluation Data Students_Shepard 2025.xlsx
-│ ├── Model Development Data_Shepard 2025.xlsx
-│ ├── Natural Gas (Henry Hub).csv
-│ ├── consumption_clean.png
-│ ├── consumption_with_outliers.png
-│ ├── cr_matrix.png
-│ ├── distribution_histogram.png
-│ ├── feature_importance_rf.png
-│ ├── lstm_vs_actual.png
-│ ├── peaks.png
-│ ├── rf_vs_actual.png
-│ ├── train_test_split.png
-│ ├── ts_cv.png
-│ └── weighted_vs_actual.png
-├── output/ # Forecast results
-│ └── February_2025_Forecast.xlsx
-├── Project3.ipynb # Main Jupyter notebook
-└── Project_3.pdf # Full project report
